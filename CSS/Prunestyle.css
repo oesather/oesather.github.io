@@ -1,9 +1,8 @@
 /*Prunestyle */
-/*Prunestyle */
 h1 {
   text-align: center
 }
-h2{
+h2 {
   text-align: center
 }
 body {
@@ -34,5 +33,5 @@ nav a {
 }
 nav a:hover {
  background-color: orange;
-  text-color: #F0EAD6;
+ text-color: #F0EAD6;
 }
