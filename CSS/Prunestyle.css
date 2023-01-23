@@ -38,3 +38,7 @@ nav a:hover {
 ul { 
   text-align:center
 }
+
+blockquote {
+  font-weight: bold
+}
