@@ -457,6 +457,147 @@
 })();
 /*]]>*/
 </script>
+        <--! Black corduroy Hat-->
+            
+        <div id='product-component-1754346093380'></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'frrkec-z7.myshopify.com',
+      storefrontAccessToken: 'b8d08cf978acdf04da5677e3327d60f5',
+    });
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: '7538257789018',
+        node: document.getElementById('product-component-1754346093380'),
+        moneyFormat: '%24%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "calc(25% - 20px)",
+          "margin-left": "20px",
+          "margin-bottom": "50px"
+        }
+      },
+      "button": {
+        "font-weight": "bold",
+        ":hover": {
+          "background-color": "#8f2fcb"
+        },
+        "background-color": "#9f34e2",
+        ":focus": {
+          "background-color": "#8f2fcb"
+        }
+      }
+    },
+    "buttonDestination": "modal",
+    "contents": {
+      "options": false
+    },
+    "text": {
+      "button": "View product"
+    }
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "button": false,
+      "buttonWithQuantity": true
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "font-weight": "bold",
+        ":hover": {
+          "background-color": "#8f2fcb"
+        },
+        "background-color": "#9f34e2",
+        ":focus": {
+          "background-color": "#8f2fcb"
+        }
+      }
+    },
+    "text": {
+      "button": "Add to cart"
+    }
+  },
+  "option": {},
+  "cart": {
+    "styles": {
+      "button": {
+        "font-weight": "bold",
+        ":hover": {
+          "background-color": "#8f2fcb"
+        },
+        "background-color": "#9f34e2",
+        ":focus": {
+          "background-color": "#8f2fcb"
+        }
+      }
+    },
+    "text": {
+      "total": "Subtotal",
+      "button": "Checkout"
+    }
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "font-weight": "bold",
+        "background-color": "#9f34e2",
+        ":hover": {
+          "background-color": "#8f2fcb"
+        },
+        ":focus": {
+          "background-color": "#8f2fcb"
+        }
+      }
+    }
+  }
+},
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>
 </div>
         </div>
 
