@@ -14,7 +14,7 @@ nav ul {
   margin:0;
   list-style-type: none;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
     }
 
 nav li {
@@ -36,7 +36,7 @@ nav a:hover {
  text-color: #F0EAD6;
 }
 ul { 
-  text-align:space-evenly
+  text-align:center;
 }
 
 blockquote {
