@@ -45,6 +45,7 @@ blockquote {
 
 
 .shop-hats {/* Create three equal columns that float next to each other */
+  padding: 20px; /* 20 all around */
 .column {
   float: left;
   width: 33.33%;
