@@ -52,7 +52,7 @@ blockquote {
             display: flex;
             flex-wrap: nowrap; /* Default: items stay in one line */
         }
-        @media screen and (max-width: 768px) {
+        @media screen and (max-width: 600px) {
             .flex-container {
                 flex-wrap: wrap; /* Wrap items to new lines on smaller screens */
             }
